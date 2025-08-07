@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #cad6d8;
+}
+
+.subtitle{
+    font-weight: 300;
+    font-style: italic;
+}
+/*_________________________________________________________________________________________________________*/
+/*________________________________________START HERO SECTION_______________________________________________*/
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: clamp(300px, 60vh, 450px); /* Adaptable según tamaño de pantalla */
+  overflow: hidden;
+  padding-top: 120px;
+}
+.hero-section img {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Importante: ocupa el alto total de la sección */
+  object-fit: cover;
+  object-position: center -40%;
+  z-index: 0;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 2rem;
+  right: 5vw;
+  color: #ece2d1;
+  z-index: 1;
+  padding: 0 1rem;
+  animation: fadeIn 1.2s ease-in;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-style: italic;
+  text-align: right;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*________________________________________END HERO SECTION_______________________________________________*/
+/*_______________________________________________________________________________________________________*/
+
+.contact-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem 0rem;
+    gap: 0rem;
+    align-items: center;
+}
+
+/*________________________________________________________________________________________________________*/
+/*________________________________________START MAP SECTION_______________________________________________*/
+.map-section{
+    flex: 1 1 55%;
+    max-width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #104b68;
+    padding-left: 4rem;
+}
+.container-data{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*__________________"DATOS DE CONTACTO section"__________________*/
+.contact-info {
+    color: #104b68;
+}
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    gap: 10px;
+    font-size: 15px;
+}
+.contact-icon {
+    width: 1.4em;
+    height: 1.4em;
+    flex-shrink: 0;
+    color: #104b68;
+}
+.contact-list a {
+    color: #104b68;
+    text-decoration: underline;
+    font-weight: 500;
+}
+/*__________________"COMO LLEGAR section"__________________*/
+.map-section iframe{
+    border: 0px;
+    border-radius: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+}
+/*________________________________________END MAP SECTION_______________________________________________*/
+/*______________________________________________________________________________________________________*/
+
+/*______________________________________________________________________________________________________*/
+/*_________________________________________START FORM SECTION___________________________________________*/
+.form-section{
+    flex: 1 1 45%;
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  padding: 57px 30px;
+  border-radius: 20px;
+  position: relative;
+  color: #104b68;
+  width: 30rem;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+.form .subtitle{
+    text-align: center;
+}
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #104b68;
+}
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+.form label .input:focus + span,.form label .valid + span {
+  top: 30px;
+  font-size: 0.7em;
+}
+.form label .input + span {
+  color: #104b68;
+}
+/*__________________"Dropdown"__________________*/
+.dropdown-wrapper {
+  position: relative;
+}
+.dropdown-wrapper svg {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #104b68;
+}
+#terapia-input {
+  width: 100%;
+  padding: 15px 0px 15px 9px;
+  border: none;
+  border-bottom: 1px solid #104b68;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+}
+#terapia-input::placeholder {
+  color: #104b68;
+  font-size: 0.9rem;
+}
+.dropdown-wrapper label {
+  display: none;
+}
+.dropdown-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #104b68;
+  border-top: none;
+  border-radius: 10px;
+  z-index: 5;
+  max-height: 235px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Smooth scrolling */
+  scroll-behavior: smooth;
+}
+/* Scroll personalizado para navegadores Webkit (Chrome, Edge, Safari) */
+.dropdown-options::-webkit-scrollbar {
+  width: 6px;
+}
+.dropdown-options::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+.dropdown-options::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.dropdown-options::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+/* Firefox (scroll más sutil) */
+.dropdown-options {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+.option {
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #104b68;
+  border-radius: 10px;
+}
+.option:hover {
+  background-color: #f1f1f1;
+}
+.form label {
+  position: relative;
+}
+.form .flex label {
+  flex: 1;
+}
+textarea, input{
+    color: #104b68;
+}
+.textarea-label{
+  padding: 15px 0px 0px 9px;
+  font-size: 0.9em;
+}
+.form label .input-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px 10px 0px 10px;
+  outline: 0;
+  border: 1px solid #104b68;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+textarea .input {
+  padding: 0 !important;
+}
+textarea{
+    resize: none;
+}
+textarea::placeholder{
+    font-size: 0.9rem;
+    color: #696f72;
+}
+.submit-button{
+    background-color: #104b68;
+    color: #ece2d1;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.submit-button:hover {
+    color: #ece2d1;
+    transform: scale(1.01);
+}
+.checkbox-container{
+    margin-bottom: 20px;
+}
+.checkbox-container label{
+    font-size: 15px;
+}
+.checkbox-container a{
+    text-decoration: none;
+    color: #4a6ab7;
+}
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+.g-recaptcha{
+  display: flex;
+  justify-content: center;
+}
+/*__________________"POPUP"__________________*/
+.popup {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.popup.hidden {
+    display: none;
+}
+.popup-content {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 380px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.popup-content p{
+    color: #104b68;
+    font-size: 1.1rem;
+}
+.popup-content button {
+  margin-top: 25px;
+  background-color: #104b68;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*_________________________________________END FORM SECTION___________________________________________*/
+/*____________________________________________________________________________________________________*/
+
+/*____________________________________________________________________________________________________*/
+/*__________________________________________MEDIA QUERY_______________________________________________*/
+@media (max-width: 1180px) {
+    .contact-page{
+        gap: 3rem;
+    }
+    .form-section,
+    .map-section {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .map-section{
+      padding: 0 2rem;
+    }
+}
+/*____________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________*/
+@media (max-width: 850px) {   
+    /*__________________Form section__________________*/
+    .form {
+      padding: 40px 20px;
+      max-width: 320px;
+    }
+}
+/*____________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________*/
+@media (max-width: 500px) {
+  /*__________________Hero section__________________*/
+    .hero-section img {
+        top: 80px;
+        position: absolute;
+        left: 0;
+        object-position: 15%;
+    }
+    .hero-text {
+        text-align: left;
+        bottom: 2.4rem;
+        left: 1rem;
+        right: auto;
+        padding: 0px;
+        color: #104b68;
+        font-size: 1.5rem;
+    }
+}
+/*____________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________*/
+@media (max-width: 450px) {
+    .map-section{
+        padding: 0 1rem;
+    }
+    /*__________________"DATOS DE CONTACTO section"__________________*/
+    .container-data{
+      gap: 1rem;
+    }
+    .contact-info {
+        font-size: 13px;
+    }
+    .contact-list li {
+        font-size: 13px;
+    }
+    /*__________________"COMO LLEGAR section"__________________*/
+    .container-transport{
+        font-size: 13px;
+    }
+    .map-section iframe{
+        border: 0px;
+        border-radius: 20px;
+        margin: 0px;
+    }
+    /*__________________Form section__________________*/
+    .form-section .subtitle{
+      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 0;
+
+    }
+}

@@ -1,0 +1,44 @@
+/*________________________________________FOOTER_______________________________________________*/
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(245, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #104b68;
+    height: 90px;
+    /*box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);*/
+}
+.footer-shadow {
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer h3{
+    font-family: "Lora", serif;
+}
+footer p{
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+footer a{
+    color: #104b68;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+/*________________________________________FOOTER_______________________________________________*/
+
+/*________________________________________MEDIA QUERY_______________________________________________*/
+@media (max-width: 430px) {
+    footer h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 11px;
+    }
+}

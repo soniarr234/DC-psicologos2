@@ -1,0 +1,462 @@
+.section {
+    padding: 50px 50px;
+    width: 100%;
+    margin-top: -5px;
+    transform-style: preserve-3d;
+}
+
+body{
+    background-color: rgb(245, 244, 244);
+}
+/*_________________________________________________________________________________________________________*/
+/*________________________________________START HERO SECTION_______________________________________________*/
+.hero-section{
+    padding-top: 70px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.hero-section img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    bottom: 90px;
+    left: 100px;
+    color: #104b68;
+    padding: 0 20px;
+    z-index: 1;
+    animation: fadeIn 1.2s ease-in;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+/* Animación del texto */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(0px); /* ligero desplazamiento vertical */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* posición final */
+    }
+}
+/*________________________________________END HERO SECTION_______________________________________________*/
+/*_______________________________________________________________________________________________________*/
+/*_______________________________________________________________________________________________________*/
+/*________________________________________START INTRODUCTION HOME________________________________________*/
+.first{
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    max-width: 1500px;
+    margin: 0 ;
+    display: flex;
+    gap: 60px;  
+    flex-direction: row;
+    text-align: justify;
+}
+.introduction img{
+    flex: 1;
+    max-width: 350px;
+    height: 100%;
+    width: 100%;    
+    border-radius: 20px;
+}
+.introduction .text{
+    flex: 2;
+}
+.subtitle{
+    font-weight: 300;
+    font-style: italic;
+}
+.italic-text{
+    text-align: left;
+    font-style: italic;
+}
+.card-presentation-home{
+    display: flex;
+    gap: 40px;
+}
+.card-presentation-home .item{
+    background-color: #ece2d1;
+    color: inherit;
+    max-width: 350px;
+    height: 200px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.6s ease-in-out;
+}
+.card-presentation-home .item:hover{
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card-presentation-home .item h5{
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: "Lora", serif;
+}
+.card-presentation-home .item svg{
+    margin-top: 5px;
+}
+.card-presentation-home .item a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+    line-height: 28px;
+}
+/*__________________________________________END INTRODUCTION HOME__________________________________________*/
+/*_______________________________________________________________________________________________________*/
+/*________________________________________START INTRODUCTION HOME________________________________________*/
+.introduction-card{
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row;
+    text-align: justify;
+}
+.card-presentation-home{
+    display: flex;
+    gap: 60px;
+}
+.card-presentation-home .item{
+    background-color: #ece2d1;
+    color: inherit;
+    max-width: 350px;
+    height: 200px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.6s ease-in-out;
+}
+.card-presentation-home .item:hover{
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card-presentation-home .item h5{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: "Lora", serif;
+}
+.card-presentation-home .item svg{
+    margin-top: 5px;
+}
+.card-presentation-home .item a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+    line-height: 28px;
+}
+/*________________________________________END INTRODUCTION HOME________________________________________*/
+/*_____________________________________________________________________________________________________*/
+
+/*_____________________________________________________________________________________________________*/
+/*________________________________________START PARALLAX_______________________________________________*/
+.parallax-bg {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+}
+.parallax-img-simple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  object-fit: contain;
+  object-position: top;
+  transform: translateY(0);
+  will-change: transform;
+  transform: translateZ(0);
+}
+/*________________________________________END PARALLAX_______________________________________________*/
+/*___________________________________________________________________________________________________*/
+
+/*_____________________________________________________________________________________________________*/
+/*______________________________________START WORKERS HOME_____________________________________________*/
+.about{
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    text-align: justify;
+}
+.about .text {
+    flex: 1 1 500px;
+}
+.services .subtitle, .about .subtitle, .carrousel .subtitle{
+    font-size: 2rem;
+}
+.text a{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ece2d1;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    text-decoration: none;
+    background-color: #104b68;
+}
+.text a:hover{
+    transform: scale(1.03);
+}
+.about img{
+    width: 385px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/*______________________________________END WORKERS HOME_____________________________________________*/
+/*___________________________________________________________________________________________________*/
+
+/*____________________________________________________________________________________________________*/
+/*_____________________________________START SERVICES HOME____________________________________________*/
+.services{
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+    text-align: justify;
+}
+.services .text {
+    flex: 1 1 500px;
+}
+.services img{
+    width: 385px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/*_______________________________________END SERVICES HOME____________________________________________*/
+/*____________________________________________________________________________________________________*/
+
+/*_____________________________________________________________________________________________________*/
+/*_______________________________________START REVIEWS HOME____________________________________________*/
+.carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto 0 auto;
+    border-radius: 20px;
+}
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.8s ease-in-out;
+}
+.carrousel .subtitle{
+    text-align: center;
+}
+.review-img {
+    width: 100%;
+    max-width: 500px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    object-fit: contain;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.carousel-controls {
+  margin-top: 20px;
+  text-align: center;
+}
+.carousel-btn {
+  background-color: transparent;
+  border: none;
+  color: #104b68;
+  font-size: 2rem;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.3s;
+}
+.carousel-btn:hover {
+  color: #1e6c92;
+}
+/*_______________________________________END REVIEWS HOME____________________________________________*/
+/*___________________________________________________________________________________________________*/
+
+/*____________________________________________________________________________________________________*/
+/*__________________________________________MEDIA QUERY_______________________________________________*/
+@media (max-width: 990px) {
+    .section{
+        padding: 50px 30px;
+    }
+    .first{
+        padding: 10px 30px 50px 30px;
+    }
+    /*_______Introduction home_______*/
+    .introduction{
+        flex-direction: column;
+    }
+    .introduction img{
+        display: none;
+    }
+    .introduction .text{
+        max-width: 100%;
+    }
+
+    /*______Cards section______*/
+    .card-presentation-home{
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*_____Workers / Services home_____*/
+    .about, .services {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .about h2, .services h2{
+        text-align: left;
+    }
+    .about .text {
+        flex: 1 1 100%;
+    }
+}
+/*____________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________*/
+@media (max-width: 800px) {
+    /*__________________Hero section__________________*/
+    .hero-section img{
+        height: 300px;
+    }
+    .hero-text {
+        bottom: 40px;
+        left: 70px;
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+    /*______________Reviews home______________*/
+    .review-img {
+        width: 100%;
+    }
+}
+/*____________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________*/
+@media (max-width: 550px) {
+    /*__________________Hero section__________________*/
+    .hero-section img {
+        object-position: 80% center;
+    }
+    .hero-text {
+        left: 1rem;
+        padding: 0px;
+        font-size: 1.5rem;
+    }
+    /*___________________Cards section___________________*/
+    .card-presentation-home .item{
+        max-width: 300px;
+        gap: 10px;
+    }
+    .card-presentation-home .item h5{
+        font-size: 17px;
+    }
+    .card-presentation-home .item p{
+        font-size: 15px;
+    }
+
+    .parallax-bg {
+        height: 60vh;
+    }
+    .parallax-img-simple {
+        object-fit: cover; /* 👈 vuelve a recortar en móvil si es necesario */
+        height: 100%;
+    }
+    /*______________Workers / Services home______________*/
+    .services .subtitle, .about .subtitle, .carrousel .subtitle{
+        font-size: 1.5rem;
+    }
+    .text a {
+        width: 100%;
+    }
+    .about img, .services img {
+        width: 300px;
+        height: auto;
+    }
+    /*______________Reviews home______________*/
+    .cream{
+        padding: 50px 20px;
+    }
+    .review-img {
+        height: 150px;
+        border-radius: 20px;
+        margin-right: 20px;
+        object-fit: contain;
+        background-color: #fff;
+    }
+    .carousel-controls {
+        margin-top: 5px;
+        text-align: center;
+    }
+    .carousel-track {
+        display: flex;
+        gap: 0px;
+        transition: transform 0.8s ease-in-out;
+    }
+}
+/*____________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________*/
+@media (max-width: 400px) {
+    /*__________________Hero section__________________*/
+    .hero-section img {
+        height: 55vh;
+    }
+    .about .text a, .services .text a{
+        font-size: 0.9rem;
+    }
+    .carousel-wrapper {
+        padding: 0 10px;
+    }
+    .review-img {
+        border-radius: 12px;
+    }
+    .carousel-btn {
+        font-size: 1.5rem;
+    }
+}
