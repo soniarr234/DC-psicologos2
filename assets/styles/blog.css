@@ -196,9 +196,12 @@
     }
     /*__________________Hero section__________________*/
     .hero-section img{
-        height: 357px;
+        height: 500px;
     }
     .hero-text {
+        bottom: 40px;
+        left: 70px;
+        font-size: 2.5rem;
         letter-spacing: 1px;
     }
 }
@@ -211,7 +214,6 @@
         left: 2rem;
         font-size: 2.4rem;
         letter-spacing: 1px;
-        padding: 0px;
     }
     /*__________________Articles section__________________*/
     .cards-container {
@@ -240,6 +242,11 @@
     /*__________________Hero section__________________*/
     .hero-section img {
         object-position: 30%;
+    }
+    .hero-text {
+        left: 2rem;
+        padding: 0px;
+        bottom: 50px;
     }
 
     .overlay-subtitle{
