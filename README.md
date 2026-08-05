@@ -131,6 +131,7 @@ Key responsive elements include:
 
 ## Project Structure
 
+```text
 DC-psicologos2
 │
 ├── assets
@@ -154,6 +155,7 @@ DC-psicologos2
 │   └── politica-privacidad.html
 │
 └── index.html
+```
 
 ---
 
@@ -180,4 +182,6 @@ The objective of this project was to design and develop a professional website f
 
 ## Repository
 
-GitHub Repository: https://github.com/soniarr234/DC-psicologos2
+GitHub Repository:
+
+https://github.com/soniarr234/DC-psicologos2
