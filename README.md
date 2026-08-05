@@ -132,7 +132,7 @@ Key responsive elements include:
 ## Project Structure
 
 ```text
-DC-psicologos2
+DC-psicologos
 │
 ├── assets
 │   ├── images
