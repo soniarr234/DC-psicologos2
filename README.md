@@ -80,7 +80,7 @@ The website was developed with a strong focus on:
 
 ### Home Page
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/App-Word/assets/104136134/626f2773-5e0c-4db5-bf47-5f23c172b4fe">
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/assets/images/home1.png">
 
 add-home-screenshot-2
 
