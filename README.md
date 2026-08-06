@@ -129,37 +129,31 @@ Key responsive elements include:
 
 ### Home Page
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home1_responsive.png">
-
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home2_responsive.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home1_responsive.png"> <img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home2_responsive.png">
 
 ### Mobile Navigation Menu
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/navegacion.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/navegacion.png">
 
 ### About Us
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros1_responsive.png">
-
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros2_responsive.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros1_responsive.png"> <img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros2_responsive.png">
 
 ### Blog
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/blog_responsive.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/blog_responsive.png">
 
 ### Blog Article
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/dentro_de_blog_responsive.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/dentro_de_blog_responsive.png">
 
 ### Services
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/servicios_responsive.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/servicios_responsive.png">
 
 ### Contact
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto_responsive.png">
-
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto2_responsive.png">
+<img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto_responsive.png"> <img width="249" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto2_responsive.png">
 
 ---
 
