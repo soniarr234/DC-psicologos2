@@ -35,15 +35,15 @@ The website was developed with a strong focus on:
 - Clinic facilities gallery
 - Interactive image carousel
 
-### Services
-- Dedicated service information pages
-- Easy navigation between specialties
-- Clear and accessible content structure
-
 ### Blog
 - Educational psychology articles
 - Responsive article layout
 - Content-oriented user experience
+
+### Services
+- Dedicated service information pages
+- Easy navigation between specialties
+- Clear and accessible content structure
 
 ### Contact
 - Contact form integration
@@ -125,6 +125,42 @@ Key responsive elements include:
 - Mobile navigation menu
 - Optimized content presentation
 
+## Screenshots
+
+### Home Page
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home1_responsive.png">
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home2_responsive.png">
+
+### Mobile Navigation Menu
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/navegacion.png">
+
+### About Us
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros1_responsive.png">
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros2_responsive.png">
+
+### Blog
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/blog_responsive.png">
+
+### Blog Article
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/dentro_de_blog_responsive.png">
+
+### Services
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/servicios_responsive.png">
+
+### Contact
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto_responsive.png">
+
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto2_responsive.png">
+
 ---
 
 ## Project Structure
@@ -180,6 +216,4 @@ The objective of this project was to design and develop a professional website f
 
 ## Repository
 
-GitHub Repository:
-
-https://github.com/soniarr234/DC-psicologos2
+GitHub Repository: https://github.com/soniarr234/DC-psicologos2
