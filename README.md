@@ -80,35 +80,33 @@ The website was developed with a strong focus on:
 
 ### Home Page
 
-<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/assets/images/home1.png">
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home1.png">
 
-add-home-screenshot-2
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/home2.png">
 
 ### About Us
 
-add-about-screenshot-1
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros1.png">
 
-add-about-screenshot-2
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/sobre_nosotros2.png">
 
 ### Blog
 
-add-blog-screenshot-1
-
-add-blog-screenshot-2
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/blog1.png">
 
 ### Blog Article
 
-add-article-screenshot
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/dentro_de_blog.png">
 
 ### Services
 
-!Services
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/servicios1.png">
 
-add-services-screenshot-2
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/servicios2.png">
 
 ### Contact
 
-add-contact-screenshot
+<img width="949" alt="Login" src="https://github.com/soniarr234/DC-psicologos2/blob/main/assets/images/contacto.png">
 
 ---
 
